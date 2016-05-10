@@ -3,6 +3,7 @@
 tags='环球故事会'
 
 date=`date +"20%y-%m-%d"`
+#date='2016-05-06'
 week=`date +"%w"`
 if [[ "$week" -ne "6" && "$week" -ne "0" ]]; then
         url="http://mod.cri.cn/hqn/hqgsh/"$date".mp3";
