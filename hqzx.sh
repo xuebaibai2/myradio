@@ -1,6 +1,5 @@
 #!/bin/bash
-#date=`date +"20%y-%m-%d"`
-date='2016-05-09'
+date=`date +"20%y-%m-%d"`
 week=`date +"%w"`
 `mkdir $date`
 if [[ "$week" -ne "6" && "$week" -ne "0" ]]; then
